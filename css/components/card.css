@@ -1,22 +1,48 @@
-.card {
+.col-sm> .card {
   padding: 10px;
+  border: none;
 }
-.card .card-header {
-  
+.card .card-header:first-child{
+  border-radius: 50%;
+}
+.card>.card-header {
+    border-radius: 50%;
+  width: 220px;
+height: 221px;
+  background-color: #111111;
+
 }
 .card .card-body {
-  
+
 }
 .card .card-image > img {
   display: block;
+  width: 40px;
+  height: 39px;
 }
 .card .card-title {
-  
+
 }
 .card .card-description {
-  
+
 }
 
 .card-portfolio .card-title {
-  
+
+}
+.card-image-porfolio>img {
+height: 300px;
+object-fit: contain;
+}
+
+.social-icon {
+height: 20px;
+}
+.card-footer .row> .col-sm{
+  margin-left: -100px;
+  padding: 0;
+}
+.logos-img>img {
+  width: 70%;
+  height: 42px;
 }

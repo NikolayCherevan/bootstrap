@@ -10,12 +10,12 @@ html {
   color: #000;
 }
 
-body {  
+body {
   margin: 0;
 }
 
 .container {
-  width: 800px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 

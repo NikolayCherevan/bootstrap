@@ -18,3 +18,7 @@
 .col-1-4 {
   width: 25%;
 }
+.row> div>.card {
+  margin-top: 20px;
+  border: none;
+}
